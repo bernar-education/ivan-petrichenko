@@ -1,6 +1,7 @@
 
 .promo {
   padding-top: 50px;
+  position: relative;
 
   &__wrapper {
     margin-top: 50px;
@@ -23,6 +24,10 @@
 
   &__btn {
     margin: 18px auto 0 auto;
+  }
+
+  &__potter {
+    display: none;
   }
 }
 
@@ -51,3 +56,38 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .promo {
+    &__potter {
+      display: block;
+      width: 450px;
+      height: 633px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    &__title {
+      padding-left: 571px;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .promo {
+    padding-top: 40px;
+
+    &__wrapper {
+      margin-top: 79px;
+    }
+
+    &__img {
+      width: 330px;
+      height: 460px;
+    }
+
+    &__btn {
+      margin: 50px auto 0 auto;
+    }
+  }
+}
