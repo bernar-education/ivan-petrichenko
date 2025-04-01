@@ -28,6 +28,10 @@
       }
     }
   }
+
+  &__nav {
+    display: none;
+  }
 }
 
 .burger {
@@ -48,6 +52,7 @@
 @media screen and (min-width: 768px) {
   .header {
     &__nav {
+      display: block;
       margin-top: 20px;
 
       ul {
