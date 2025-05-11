@@ -18,13 +18,12 @@
 
     a {
       display: block;
+      color: $dark;
 
       span {
         display: block;
-        color: $dark;
         width: 20px;
         height: 20px;
-        font-size: 18px;
       }
     }
   }
